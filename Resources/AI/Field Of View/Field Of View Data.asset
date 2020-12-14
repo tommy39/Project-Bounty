@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26676a7d3f3fada4fa63523a5075a029, type: 3}
+  m_Name: Field Of View Data
+  m_EditorClassIdentifier: 
+  tickRate: 1
+  visualisationMaterial: {fileID: 2100000, guid: 663834164c6a04740aaa1b778249ce7e,
+    type: 2}
+  meshResolution: 0.5
+  edgeDistanceThreshold: 5
+  edgeResolveIterations: 0.5
+  targetMask: {fileID: 11400000, guid: 9b24a1386ac018048a33e4622f660533, type: 2}
+  obstacleMask: {fileID: 11400000, guid: 9a9f8147ae3beea48afa178c7543db4a, type: 2}

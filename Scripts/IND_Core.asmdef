@@ -1,0 +1,19 @@
+{
+    "name": "IND_Core",
+    "references": [
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:01070e3ce88ed5640b457e02e450924f",
+        "GUID:4307f53044263cf4b835bd812fc161a4",
+        "GUID:3d09643bf7d2d4046ad51680a2612bf7",
+        "GUID:0ec01df3e6f732f408fb8f40de1b7f11"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

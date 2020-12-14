@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f99d4fbf379f95246b9dc712821278a7, type: 3}
+  m_Name: UI_WorldInteractionManagerData
+  m_EditorClassIdentifier: 
+  distantObjectPrefab: {fileID: 4796672830769797988, guid: ca954dd3a12fb8a408426f0a7a335af8,
+    type: 3}

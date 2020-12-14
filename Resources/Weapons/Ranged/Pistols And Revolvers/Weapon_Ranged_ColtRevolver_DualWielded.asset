@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5e01aad22d0e39488eeb09d0932d12f, type: 3}
+  m_Name: Weapon_Ranged_ColtRevolver_DualWielded
+  m_EditorClassIdentifier: 
+  weaponName: Dual Colt Navy Revolvers
+  weaponType: 0
+  weaponAnimID: 4
+  weaponPrefab: {fileID: 2599148165807048002, guid: 77bd8133900905345b7b969b6613a259,
+    type: 3}
+  attackRate: 0.096
+  attackDamage: 200
+  limbBreakThreshold: 100
+  throwDistanceForce: 500
+  isLethalWhenThrown: 0
+  knockdownCollidersDisableTimer: 3
+  sharedWeaponData: {fileID: 11400000, guid: b3b18b6b80fcd124e8578fccc8dc1b7b, type: 2}
+  rigidBodyData:
+    mass: 1
+    drag: 0
+    angularDrag: 0.5
+  aiData:
+    shootRange: 10
+    attackCooldown: 1
+    attackRangedStoppingDistance: 1
+    bulletSpeedModifier: 30
+  icon: {fileID: 21300000, guid: 12d4b0b48861b464cb15328ab1401fc5, type: 3}
+  iconWidth: 348
+  iconHeight: 162
+  rangedType: 0
+  fireRateMode: 1
+  shootType: 0
+  ammoType: 1
+  canBeDualWielded: 1
+  dualWieldParentData: {fileID: 11400000}
+  leftHandPivotPosition: {x: -0.153, y: -0.223, z: 0.022}
+  leftHandPivotRotation: {x: 53.78, y: -101.856, z: -93.604}
+  bulletToFirePrefab: {fileID: 5785093833798843679, guid: ee82a1f6264f8e24e99a24cc5cdd7786,
+    type: 3}
+  bulletCasingPrefab: {fileID: 1170647774315830, guid: aa8ede5afbc0ed74187635d7bd7cef56,
+    type: 3}
+  bulletMovementSpeed: 50
+  maxMagazineAmmoAmount: 12
+  gunshotSoundNotificationDistance: 5
+  spreadAmount: 3
+  arrowBodyHitOffset: 5
+  spreadMaxRange: 3
+  animReloadLengthSeconds: 2
+  positiveReloadAreaWidth: 0
+  positiveReloadAreaCentrePosition: 0
+  fireShotSound: {fileID: 8300000, guid: 07569745df7288b489777274760e9991, type: 3}
+  reloadSound: {fileID: 8300000, guid: e5788ed6c6e82e6449a6e152b0e7ad9c, type: 3}
+  magazineOutOfAmmoSound: {fileID: 8300000, guid: 7b964dfe655ac314ab04ff6d016e2e30,
+    type: 3}
+  childRangedItem: {fileID: 11400000, guid: 5408ccbab4be8564fa933bc03b6318aa, type: 2}

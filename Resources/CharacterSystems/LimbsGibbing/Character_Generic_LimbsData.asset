@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c410012639dfd744ab471a485bcf9b7, type: 3}
+  m_Name: Character_Generic_LimbsData
+  m_EditorClassIdentifier: 
+  leftArmPrefab: {fileID: 357294323550098898, guid: b60a2949537f1e84faae768026e9960e,
+    type: 3}
+  rightArmPrefab: {fileID: 4111815142471204314, guid: a2cb2b6c952a0414f9a4a55243150c1a,
+    type: 3}
+  torsoPrefab: {fileID: 7118234043163177955, guid: badf48a7c494f8044b08e8792e7aca5e,
+    type: 3}
+  leftLegPrefab: {fileID: 3719920679456831374, guid: 17e8cce3ce01faf4daf04b145e5dc182,
+    type: 3}
+  rightLegPrefab: {fileID: 1199771664293155075, guid: 85870ca57a84e3b4c89beae2868eb280,
+    type: 3}
+  headPrefab: {fileID: 6755959406311789524, guid: 38e2cc970c4ee5448aec99862dd2098c,
+    type: 3}
+  limbsRagdollMask: {fileID: 11400000, guid: 0bccd3622573e6a409518ee84c7b7f88, type: 2}

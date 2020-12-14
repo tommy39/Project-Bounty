@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3b45ba6d784cf49b7d44df7b58f84a, type: 3}
+  m_Name: AnimationData
+  m_EditorClassIdentifier: 
+  isReloadingBool: 0
+  isFiringBool: 0
+  isBoltingBool: 0
+  isMeleeAttackingBool: 0
+  verticalFloat: 0
+  horizontalFloat: 0
+  isIdleBool: 0
+  isKnockedDown: 0
+  knockDownAnimationClass: 0
+  weaponAnimID: 0
+  death01AnimationClass: 0
+  getNewWeaponAnimationClass: 0
+  meleeAttackAnimationClass: 0
+  idle_BreathingAnimationClass: 0
+  isPlayerBool: 0

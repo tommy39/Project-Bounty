@@ -1,0 +1,17 @@
+{
+    "name": "IND_Tools",
+    "references": [
+        "GUID:d56604203d52d9445b9af84570cf2adc"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

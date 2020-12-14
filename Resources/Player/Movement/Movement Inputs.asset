@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01057a581e4fcc44aa0124f1577b2c21, type: 3}
+  m_Name: Movement Inputs
+  m_EditorClassIdentifier: 
+  isPressingMovementKeys: {fileID: 11400000, guid: 1a6a503f793f14642a4ae529b6cc5048,
+    type: 2}
+  rightMovementInput: {fileID: 11400000, guid: e2538e35f5905e54fbba2b1ed16b13b5, type: 2}
+  leftMovementInput: {fileID: 11400000, guid: da94ab40d22964e42ae73ee8d602b80f, type: 2}
+  forwardMovementInput: {fileID: 11400000, guid: b95114fef36c3ff46b6503f7c0893031,
+    type: 2}
+  backwardsMovementInput: {fileID: 11400000, guid: c0a0f09b4b972a5409433a5780202c26,
+    type: 2}
+  horizontalInput: {fileID: 11400000, guid: 721b5a4ea6410ce4ead257cf3ff07597, type: 2}
+  verticalInput: {fileID: 11400000, guid: b8e8a8353a758cb4487d4ceaabcf174a, type: 2}
+  isPlayerInAction: {fileID: 11400000, guid: ece954ba5a421204690fdf2d5d9c2044, type: 2}

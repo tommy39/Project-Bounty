@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 878927643ee35754a8fd94b19120ba19, type: 3}
+  m_Name: Weapon_Ranged_Mauser
+  m_EditorClassIdentifier: 
+  weaponName: Mauser C96
+  weaponType: 0
+  weaponAnimID: 5
+  weaponPrefab: {fileID: 7360377104405612350, guid: db581093a69d9d34a9069442ae838f8b,
+    type: 3}
+  attackRate: 0.089
+  attackDamage: 200
+  limbBreakThreshold: 100
+  throwDistanceForce: 500
+  isLethalWhenThrown: 0
+  knockdownCollidersDisableTimer: 3
+  sharedWeaponData: {fileID: 11400000, guid: b3b18b6b80fcd124e8578fccc8dc1b7b, type: 2}
+  rigidBodyData:
+    mass: 1
+    drag: 0
+    angularDrag: 0.5
+  aiData:
+    shootRange: 10
+    attackCooldown: 1
+    attackRangedStoppingDistance: 1
+    bulletSpeedModifier: 30
+  icon: {fileID: 21300000, guid: 107e5a7a685beb04c81d3a19cf9f8068, type: 3}
+  iconWidth: 348
+  iconHeight: 162
+  rangedType: 0
+  fireRateMode: 0
+  shootType: 0
+  ammoType: 1
+  canBeDualWielded: 0
+  dualWieldParentData: {fileID: 0}
+  leftHandPivotPosition: {x: 0, y: 0, z: 0}
+  leftHandPivotRotation: {x: 0, y: 0, z: 0}
+  bulletToFirePrefab: {fileID: 5785093833798843679, guid: ee82a1f6264f8e24e99a24cc5cdd7786,
+    type: 3}
+  bulletCasingPrefab: {fileID: 1170647774315830, guid: aa8ede5afbc0ed74187635d7bd7cef56,
+    type: 3}
+  bulletMovementSpeed: 50
+  maxMagazineAmmoAmount: 10
+  gunshotSoundNotificationDistance: 5
+  spreadAmount: 3
+  arrowBodyHitOffset: 5
+  spreadMaxRange: 3
+  animReloadLengthSeconds: 2
+  positiveReloadAreaWidth: 0
+  positiveReloadAreaCentrePosition: 0
+  fireShotSound: {fileID: 8300000, guid: 41155f89358e70a489c0eba341e300b0, type: 3}
+  reloadSound: {fileID: 8300000, guid: e5788ed6c6e82e6449a6e152b0e7ad9c, type: 3}
+  magazineOutOfAmmoSound: {fileID: 8300000, guid: 7b964dfe655ac314ab04ff6d016e2e30,
+    type: 3}

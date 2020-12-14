@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45215175edf288f4bbaae6541f4cb89a, type: 3}
+  m_Name: Player Execution Data
+  m_EditorClassIdentifier: 
+  maxSearchDistance: 2
+  knockedDownEnemiesLayer: {fileID: 11400000, guid: 536d8b38670913241a05fdad020a54c8,
+    type: 2}
+  executionInput: {fileID: 11400000, guid: 259ed19ec2dd3c14590ccd32bc9a1138, type: 2}

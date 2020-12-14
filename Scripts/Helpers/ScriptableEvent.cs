@@ -1,0 +1,16 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using Sirenix.OdinInspector;
+
+namespace IND.Core
+{
+    [CreateAssetMenu(fileName = "Event", menuName = "IND/Events/ScriptableEvent")]
+    public class ScriptableEvent : SerializedScriptableObject {
+
+	public virtual void Execute(Transform trans = null)
+        {
+
+        }
+	}
+}

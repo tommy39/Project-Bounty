@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9c51aa6415823b4a9e59299ab539381, type: 3}
+  m_Name: Weapon_Melee_Fists
+  m_EditorClassIdentifier: 
+  weaponName: Fists
+  weaponType: 3
+  weaponAnimID: 0
+  weaponPrefab: {fileID: 0}
+  attackRate: 0.069
+  attackDamage: 200
+  limbBreakThreshold: 100
+  throwDistanceForce: 500
+  isLethalWhenThrown: 1
+  knockdownCollidersDisableTimer: 3
+  sharedWeaponData: {fileID: 11400000, guid: b3b18b6b80fcd124e8578fccc8dc1b7b, type: 2}
+  rigidBodyData:
+    mass: 1
+    drag: 0
+    angularDrag: 0.5
+  aiData:
+    shootRange: 10
+    attackCooldown: 1
+    attackRangedStoppingDistance: 1
+    bulletSpeedModifier: 30

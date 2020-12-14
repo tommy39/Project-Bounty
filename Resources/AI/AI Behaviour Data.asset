@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5548122f62cbca149b38ba55a5d05d56, type: 3}
+  m_Name: AI Behaviour Data
+  m_EditorClassIdentifier: 
+  idleStateBehaviourTree: {fileID: 11400000, guid: 7bb28dc3db6c8e740a11e39d090d8a0b,
+    type: 2}
+  patrolStateBehaviourTree: {fileID: 11400000, guid: 6b9da9d157cc260409903b24506742b1,
+    type: 2}
+  combatBehaviourTree: {fileID: 11400000, guid: 91183f3d82e3d3144be74ee9489c21d3,
+    type: 2}
+  dummyBehaviourTree: {fileID: 11400000, guid: ebd7a0f8b7d2a0d49b21b17250c2967b, type: 2}
+  searchBehaviourTree: {fileID: 11400000, guid: 67bbc53bc7bfb24478b7acb16b75af14,
+    type: 2}

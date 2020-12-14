@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8cd186dbb663474482976924eddc221, type: 3}
+  m_Name: DevGameSettings
+  m_EditorClassIdentifier: 
+  playerUnlimitedAmmo: {fileID: 11400000, guid: 1ab44961ff39ae649a3ea479286bdf48,
+    type: 2}
+  playerUnlimitedHealth: {fileID: 11400000, guid: 705aa236240a5ba4d8ab1dc88442afaf,
+    type: 2}
+  allowWeaponSelectionMenu: 1

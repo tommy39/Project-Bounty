@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 878927643ee35754a8fd94b19120ba19, type: 3}
+  m_Name: Weapon_Ranged_Automatic_PPSH
+  m_EditorClassIdentifier: 
+  weaponName: PPSH-41
+  weaponType: 0
+  weaponAnimID: 1
+  weaponPrefab: {fileID: 7909361359092983653, guid: 3a6e27d2971e2fa42b87d2669cfaea11,
+    type: 3}
+  attackRate: 0.093
+  attackDamage: 200
+  limbBreakThreshold: 100
+  throwDistanceForce: 500
+  isLethalWhenThrown: 0
+  knockdownCollidersDisableTimer: 3
+  sharedWeaponData: {fileID: 11400000, guid: b3b18b6b80fcd124e8578fccc8dc1b7b, type: 2}
+  rigidBodyData:
+    mass: 1
+    drag: 0
+    angularDrag: 0.5
+  aiData:
+    shootRange: 10
+    attackCooldown: 1
+    attackRangedStoppingDistance: 8.33
+    bulletSpeedModifier: 30
+  rangedType: 0
+  fireRateMode: 0
+  shootType: 0
+  ammoType: 0
+  bulletToFirePrefab: {fileID: 5785093833798843679, guid: ee82a1f6264f8e24e99a24cc5cdd7786,
+    type: 3}
+  bulletCasingPrefab: {fileID: 1170647774315830, guid: aa8ede5afbc0ed74187635d7bd7cef56,
+    type: 3}
+  bulletMovementSpeed: 50
+  maxMagazineAmmoAmount: 35
+  gunshotSoundNotificationDistance: 15.1
+  spreadAmount: 3
+  arrowBodyHitOffset: 5
+  spreadMaxRange: 3
+  animReloadLengthSeconds: 10
+  positiveReloadAreaWidth: 0.27
+  positiveReloadAreaCentrePosition: 0.437
