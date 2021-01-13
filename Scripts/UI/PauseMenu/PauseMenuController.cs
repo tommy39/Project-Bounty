@@ -5,7 +5,6 @@ using Sirenix.OdinInspector;
 using UnityEngine.UI;
 using IND.Core.UI.Challenges;
 using IND.Core.Missions;
-using UnityEditor.PackageManager.UI;
 using IND.Core.UI.Cursors.AimCursor;
 
 namespace IND.Core.UI.PauseMenu

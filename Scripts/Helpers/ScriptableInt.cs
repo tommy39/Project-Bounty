@@ -6,7 +6,7 @@ using Sirenix.OdinInspector;
 namespace IND.Core
 {
     [CreateAssetMenu(fileName = "Int", menuName = "IND/Variables/Int")]
-    public class ScriptableInt : SerializedScriptableObject {
+    public class ScriptableInt : ScriptableObject {
 
         public int value;
 		

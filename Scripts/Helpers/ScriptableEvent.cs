@@ -6,7 +6,7 @@ using Sirenix.OdinInspector;
 namespace IND.Core
 {
     [CreateAssetMenu(fileName = "Event", menuName = "IND/Events/ScriptableEvent")]
-    public class ScriptableEvent : SerializedScriptableObject {
+    public class ScriptableEvent : ScriptableObject {
 
 	public virtual void Execute(Transform trans = null)
         {

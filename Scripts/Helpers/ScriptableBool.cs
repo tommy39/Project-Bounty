@@ -6,7 +6,7 @@ using Sirenix.OdinInspector;
 namespace IND.Core
 {
     [CreateAssetMenu(fileName = "Bool", menuName = "IND/Variables/Bool")]
-    public class ScriptableBool : SerializedScriptableObject {
+    public class ScriptableBool : ScriptableObject {
         [ShowInInspector]
         public bool value;
 		

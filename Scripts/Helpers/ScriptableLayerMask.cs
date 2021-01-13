@@ -6,7 +6,7 @@ using Sirenix.OdinInspector;
 namespace IND.Core
 {
     [CreateAssetMenu (fileName = "LayerMask", menuName = "IND/Variables/LayerMask")]
-public class ScriptableLayerMask : SerializedScriptableObject {
+public class ScriptableLayerMask : ScriptableObject {
 
         public LayerMask value;	
 		

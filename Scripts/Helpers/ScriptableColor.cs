@@ -6,7 +6,7 @@ using UnityEngine.UI;
 namespace IND.Core
 {
     [CreateAssetMenu(fileName = "Image", menuName = "IND/Variables/Color")]
-    public class ScriptableColor : SerializedScriptableObject {
+    public class ScriptableColor : ScriptableObject {
 
         public Color value = Color.black;
 		

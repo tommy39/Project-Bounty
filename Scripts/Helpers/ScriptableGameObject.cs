@@ -6,7 +6,7 @@ using Sirenix.OdinInspector;
 namespace IND.Core
 {
     [CreateAssetMenu(fileName = "GameObject", menuName = "IND/Variables/Game Object")]
-    public class ScriptableGameObject : SerializedScriptableObject {
+    public class ScriptableGameObject : ScriptableObject {
         public GameObject value;
 	}
 }

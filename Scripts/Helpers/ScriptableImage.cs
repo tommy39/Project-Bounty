@@ -7,7 +7,7 @@ using UnityEngine.UI;
 namespace IND.Core
 {
     [CreateAssetMenu(fileName = "Image", menuName = "IND/Variables/Image")]
-    public class ScriptableImage : SerializedScriptableObject {
+    public class ScriptableImage : ScriptableObject {
 
         public Sprite value;
 		

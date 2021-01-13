@@ -6,7 +6,7 @@ using Sirenix.OdinInspector;
 namespace IND.Core
 {
     [CreateAssetMenu(fileName = "Transform", menuName = "IND/Variables/Transform")]
-    public class ScriptableTransform : SerializedScriptableObject {
+    public class ScriptableTransform : ScriptableObject {
 
         public Transform value;
 		
