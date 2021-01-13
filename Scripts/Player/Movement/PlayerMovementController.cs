@@ -4,6 +4,7 @@ using UnityEngine;
 using Sirenix.OdinInspector;
 using IND.Core.Player.Combat;
 using IND.Core.Cameras;
+using IND.Core.AISystems;
 
 namespace IND.Core.Player.Movement
 {
@@ -13,7 +14,7 @@ namespace IND.Core.Player.Movement
         private Rigidbody rigidBod;
         private Camera gameCamera;
         private Transform aimTarget;
-        
+
         private float movementSpeed;
         private Vector3 targetPoint;
         private Quaternion targetRotation;
@@ -22,6 +23,8 @@ namespace IND.Core.Player.Movement
         Vector3 camForward;
         Vector3 move;
         Vector3 moveInput;
+
+        private int curNotificationTickRate = 0;
 
         private ScriptableFloat deltaTime;
         private ScriptableFloat verticalNormalizedMoveAmount;
@@ -59,7 +62,7 @@ namespace IND.Core.Player.Movement
 
         public override void Tick()
         {
-            if(isPlayerInAction.value == true)
+            if (isPlayerInAction.value == true)
             {
                 return;
             }
@@ -82,6 +85,16 @@ namespace IND.Core.Player.Movement
             moveInput = new Vector3(movementInput.horizontalInput.value, 0f, movementInput.verticalInput.value);
             moveVelocity = moveInput * movementSpeed;
             rigidBod.velocity = moveVelocity;
+
+            if (movementInput.isPressingMovementKeys == true)
+            {
+                curNotificationTickRate++;
+                if (curNotificationTickRate == movementData.notificationTickRate) ;
+                {
+                    curNotificationTickRate = 0;
+                    AIManager.singleton.SendNotificationToAi(movementData.notifcationDistance, transform.position);
+                }
+            }
         }
 
         public override void FixedTick()

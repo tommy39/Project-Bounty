@@ -17,7 +17,20 @@ namespace IND.Core.AISystems
 
         public void SearchAreaNotifcationRecieved(Vector3 positionToSearch)
         {
-            stateController.searchState.AssignSearchTask(positionToSearch);
+            //  stateController.searchState.AssignSearchTask(positionToSearch);
+
+            PlayerEnteredFOV();
+        }
+
+        void PlayerEnteredFOV()
+        {
+            if (stateController.currentState != AIStateType.COMBAT)
+            {
+                if (stateController.currentState == AIStateType.KNOCKEDDOWN)
+                    return;
+
+                stateController.ChangeState(AIStateType.COMBAT);
+            }
         }
     }
 }

@@ -179,12 +179,16 @@ namespace IND.Core.Weapons
 
         void CreateGunShotNotification()
         {
+            AIManager.singleton.SendNotificationToAi(rangedData.gunshotSoundNotificationDistance, transform.position);
+            /*
+            Debug.Log("Gun SHot");
+
             Collider[] collisionsInSphereCast = Physics.OverlapSphere(playerWeaponController.bulletShootPoint.position, rangedData.gunshotSoundNotificationDistance, playerInventoryController.enemyNotificationsMask.value);
             foreach (Collider item in collisionsInSphereCast)
             {
                 Debug.Log("Hit");
                 item.GetComponent<AINotificationHandler>().searchAlertController.SearchAreaNotifcationRecieved(playerInventoryController.transform.position);
-            }
+            }*/
         }
 
         public override void WeaponAttack()

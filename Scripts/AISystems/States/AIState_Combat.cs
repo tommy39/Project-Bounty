@@ -83,7 +83,7 @@ namespace IND.Core.AISystems.States
         }
         public void OnStateEnter()
         {
-            target = fieldOfViewController.playerTarget;
+            target = Object.FindObjectOfType<HealthControllerPlayer>();
 
             if (target == null)
                 return;

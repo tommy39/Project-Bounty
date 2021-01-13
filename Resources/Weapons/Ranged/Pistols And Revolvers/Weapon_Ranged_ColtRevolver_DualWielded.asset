@@ -48,9 +48,9 @@ MonoBehaviour:
     type: 3}
   bulletCasingPrefab: {fileID: 1170647774315830, guid: aa8ede5afbc0ed74187635d7bd7cef56,
     type: 3}
-  bulletMovementSpeed: 50
+  bulletMovementSpeed: 49.6
   maxMagazineAmmoAmount: 12
-  gunshotSoundNotificationDistance: 5
+  gunshotSoundNotificationDistance: 40.2
   spreadAmount: 3
   arrowBodyHitOffset: 5
   spreadMaxRange: 3

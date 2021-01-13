@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Sirenix.OdinInspector;
 using System;
+using IND.Core.Player;
 
 namespace IND.Core.AISystems
 {
@@ -16,6 +17,8 @@ namespace IND.Core.AISystems
 
         public event EventHandler OnEnemyKilled;
 
+        private PlayerController playerController;
+
         private AILevelContainerManager aiLevelContainerManager;
         public override void Init()
         {
@@ -28,6 +31,8 @@ namespace IND.Core.AISystems
                 activeChildAI.Add(item);
                 item.Init();
             }
+
+            playerController = FindObjectOfType<PlayerController>();
         }
 
         public override void Tick()
@@ -46,5 +51,22 @@ namespace IND.Core.AISystems
             deadAI.transform.SetParent(aiLevelContainerManager.deadAiGroup);
         }
 
+        public void SendNotificationToAi(float targetDistance, Vector3 position)
+        {
+            for (int i = 0; i < activeChildAI.Count; i++)
+            {
+                float curDistance = Vector3.Distance(activeChildAI[i].transform.position, position);
+                if(curDistance <= targetDistance)
+                {
+                    activeChildAI[i].GetComponentInChildren<AINotificationHandler>().searchAlertController.SearchAreaNotifcationRecieved(playerController.transform.position);
+                }
+            }
+        }
+
+        public static AIManager singleton;
+        private void Awake()
+        {
+            singleton = this;
+        }
     }
 }

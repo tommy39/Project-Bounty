@@ -7,6 +7,7 @@ using IND.Core.Characters.Hitboxes;
 using IND.Core.HitEffects;
 using IND.Core.Pooling;
 using IND.Core.Weapons;
+using IND.Core.AISystems;
 
 namespace IND.Core.Weapons
 {
@@ -67,6 +68,9 @@ namespace IND.Core.Weapons
                 // Debug.Log(3);
                 hittableObjectController.ObjectHit(hit.point, -hit.normal);
             }
+
+            AIManager.singleton.SendNotificationToAi(weaponItem.gunshotSoundNotificationDistance, transform.position);
+
             DestroyProjectile();
         }
 

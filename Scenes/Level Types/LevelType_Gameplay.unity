@@ -673,6 +673,31 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4149573890762261021, guid: 8fc083418a10047498f4a6c61ef70f88,
+        type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149573890762261021, guid: 8fc083418a10047498f4a6c61ef70f88,
+        type: 3}
+      propertyPath: m_fontColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149573890762261021, guid: 8fc083418a10047498f4a6c61ef70f88,
+        type: 3}
+      propertyPath: m_fontColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149573890762261021, guid: 8fc083418a10047498f4a6c61ef70f88,
+        type: 3}
+      propertyPath: m_fontColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149573890762261021, guid: 8fc083418a10047498f4a6c61ef70f88,
+        type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278190080
+      objectReference: {fileID: 0}
     - target: {fileID: 7334657679350482978, guid: 8fc083418a10047498f4a6c61ef70f88,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -1066,6 +1091,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}

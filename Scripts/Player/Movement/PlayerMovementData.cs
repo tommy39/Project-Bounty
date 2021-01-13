@@ -10,5 +10,7 @@ namespace IND.Core.Player.Movement
     {
         public float moveSpeed = 5f;
         [InlineEditor] public ScriptableFloat movementRotationSpeed;
+        public float notifcationDistance = 2f;
+        public int notificationTickRate = 10;
     }
 }
