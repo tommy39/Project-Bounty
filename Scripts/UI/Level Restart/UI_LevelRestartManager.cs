@@ -15,6 +15,7 @@ namespace IND.Core.UI.LevelRestart
         public bool restartMenuIsActivate = false;
 
         public ScriptableBool restartInput;
+        public bool allowRestartMenuToAppear = false;
 
         private Location locationData;
         private AimCursorManager aimCursor;
@@ -52,7 +53,10 @@ namespace IND.Core.UI.LevelRestart
 
         public void ActivateRestartMenu()
         {
-            restartWindow.SetActive(true);
+            if (allowRestartMenuToAppear == true)
+            {
+                restartWindow.SetActive(true);
+            }
             restartMenuIsActivate = true;
             aimCursor.aimTransform.gameObject.SetActive(false);
         }

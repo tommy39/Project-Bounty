@@ -37,6 +37,7 @@ CharacterJoint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9359791576270739}
   m_ConnectedBody: {fileID: 7582460607601767656}
+  m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
@@ -146,6 +147,7 @@ CharacterJoint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 54903017615649803}
   m_ConnectedBody: {fileID: 810962714510318034}
+  m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
@@ -254,6 +256,7 @@ CharacterJoint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 264286355634493775}
   m_ConnectedBody: {fileID: 5850792014146580087}
+  m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
@@ -344,6 +347,7 @@ CharacterJoint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 267726194668404227}
   m_ConnectedBody: {fileID: 5850792014146580087}
+  m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
@@ -513,7 +517,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.4167283, y: 0.12296596, z: 0.12910017}
+  m_Size: {x: 0.65, y: 0.12296596, z: 0.12910017}
   m_Center: {x: -0.2916351, y: 0.0027069522, z: 0.010387724}
 --- !u!114 &3853536519343066830
 MonoBehaviour:
@@ -619,6 +623,7 @@ CharacterJoint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1838617713787816666}
   m_ConnectedBody: {fileID: 2595332629154494524}
+  m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
@@ -1017,6 +1022,7 @@ CharacterJoint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3662880637578930038}
   m_ConnectedBody: {fileID: 7582460607601767656}
+  m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
@@ -1107,6 +1113,7 @@ CharacterJoint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3915544477257530966}
   m_ConnectedBody: {fileID: 9067475445062309891}
+  m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
@@ -1203,7 +1210,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.5771521, y: 0.29781592, z: 0.4491515}
+  m_Size: {x: 0.76, y: 0.48, z: 0.66}
   m_Center: {x: -0.22524318, y: 0.017141268, z: 0.0063967616}
 --- !u!114 &4092924832198991023
 MonoBehaviour:
@@ -1336,6 +1343,7 @@ CharacterJoint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5133994486892642167}
   m_ConnectedBody: {fileID: 7582460607601767656}
+  m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: -1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
@@ -1426,6 +1434,7 @@ CharacterJoint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6494507779067673237}
   m_ConnectedBody: {fileID: 5850792014146580087}
+  m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
@@ -1516,6 +1525,7 @@ CharacterJoint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6600008515853792114}
   m_ConnectedBody: {fileID: 3333877770150823426}
+  m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
@@ -1831,7 +1841,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.2435669, y: 0.32173374, z: 0.21075864}
+  m_Size: {x: 0.38, y: 0.32173374, z: 0.21075864}
   m_Center: {x: -0.005728725, y: 0.042998604, z: 0.007760992}
 --- !u!114 &6065201465972446663
 MonoBehaviour:

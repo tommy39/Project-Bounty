@@ -51,7 +51,7 @@ MonoBehaviour:
     type: 3}
   bulletMovementSpeed: 60.6
   maxMagazineAmmoAmount: 6
-  gunshotSoundNotificationDistance: 53.4
+  gunshotSoundNotificationDistance: 11.7
   spreadAmount: 3
   arrowBodyHitOffset: 5
   spreadMaxRange: 3

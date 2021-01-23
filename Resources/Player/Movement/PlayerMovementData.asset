@@ -15,3 +15,5 @@ MonoBehaviour:
   moveSpeed: 7
   movementRotationSpeed: {fileID: 11400000, guid: 93b8d96cd16fe7e4c95e40cfad3bc3cb,
     type: 2}
+  notifcationDistance: 1.8
+  notificationTickRate: 10

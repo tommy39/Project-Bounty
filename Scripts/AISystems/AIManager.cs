@@ -56,9 +56,12 @@ namespace IND.Core.AISystems
             for (int i = 0; i < activeChildAI.Count; i++)
             {
                 float curDistance = Vector3.Distance(activeChildAI[i].transform.position, position);
-                if(curDistance <= targetDistance)
+                if (curDistance <= targetDistance)
                 {
-                    activeChildAI[i].GetComponentInChildren<AINotificationHandler>().searchAlertController.SearchAreaNotifcationRecieved(playerController.transform.position);
+                    if (playerController != null)
+                    {
+                        activeChildAI[i].GetComponentInChildren<AINotificationHandler>().searchAlertController.SearchAreaNotifcationRecieved(playerController.transform.position);
+                    }
                 }
             }
         }
