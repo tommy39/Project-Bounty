@@ -10,7 +10,9 @@ using IND.Core.AISystems.Inventory;
 using IND.Core.Characters;
 using IND.Core.Characters.Hitboxes;
 using IND.Core.Characters.LimbGibbings;
+#if Unity_Editor
 using UnityEditor.Experimental.SceneManagement;
+#endif
 
 namespace IND.Core.AISystems.TroopSystems
 {
@@ -256,7 +258,8 @@ namespace IND.Core.AISystems.TroopSystems
             }
         }
 
-        private void OnDrawGizmosSelected()
+#if Unity_Editor
+     private void OnDrawGizmosSelected()
         {
             if (Application.isPlaying)
                 return;
@@ -270,7 +273,7 @@ namespace IND.Core.AISystems.TroopSystems
             SpawnCharacterMesh();
             SpawnWeapon();
         }
-
+#endif
 #endif
     }
 }

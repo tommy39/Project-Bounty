@@ -180,10 +180,12 @@ namespace IND.DevTools.Locations
         {
             LocationCreator_RefreshLocations.RefreshLocationsList(window);
         }
+#if Unity_Editor
         [Button("Open Relevent Level Type Data Scene", ButtonSizes.Medium)]
         public void OpenReleventLevelTypeDataScene()
         {
             Object.FindObjectOfType<LevelManager>().AddSupportingSceneDataToEditor();
         }
+#endif
     }
 }

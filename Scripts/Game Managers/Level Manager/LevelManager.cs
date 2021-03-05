@@ -81,6 +81,7 @@ namespace IND.Core.Managers.Level
             }
         }
 
+#if Unity_Editor
         [Button]
         public void AddSupportingSceneDataToEditor()
         {
@@ -102,6 +103,7 @@ namespace IND.Core.Managers.Level
             }
             UnityEditor.SceneManagement.EditorSceneManager.OpenScene("Assets/_ProjectDirectory/Scenes/Level Types/" + sceneName + ".unity", UnityEditor.SceneManagement.OpenSceneMode.Additive);
         }
+#endif
 
         private IEnumerator SetActiveScene(string sceneName)
         {

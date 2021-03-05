@@ -51,11 +51,12 @@ namespace IND.DevTools.Locations
             EditorSceneManager.OpenScene(fullpath + "_Editor" + ".unity", OpenSceneMode.Additive);
 
             LoadCurrentLocationData(window);
-
+#if Unity_Editor
             if (window.includeRevelevantLevelTypeDataSceneWhenOpening == true)
             {
                 window.OpenReleventLevelTypeDataScene();
             }
+#endif
         }
 
         public static void LoadCurrentLocationData(LocationCreator window)

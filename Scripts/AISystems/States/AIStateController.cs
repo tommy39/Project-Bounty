@@ -117,6 +117,7 @@ namespace IND.Core.AISystems.States
                     break;
             }
         }
+#if Unity_Editor
         private void OnDrawGizmos()
         {
             Handles.color = Color.black;
@@ -127,6 +128,7 @@ namespace IND.Core.AISystems.States
 
             currentState = startState;
         }
+#endif
         
     }
 }
